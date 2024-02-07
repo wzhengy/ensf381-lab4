@@ -1,13 +1,13 @@
-#Project Overview
+# Project Overview
 -Made a responsive webpage without using flex
 -Made a responsive webpage using flex
 
-##Team Members
+## Team Members
 | Name       |
 |------------|
 |Sean Pham   |
 |Wilson Zheng|
 
-##Screenshots
+## Screenshots
 ![ExerciseB Final Output](./ExerciseB.gif)
 ![ExerciseC Final Output](./ExerciseC.gif)
