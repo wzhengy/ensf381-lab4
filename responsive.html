@@ -50,15 +50,23 @@ Description : Responsive Layouts.
 		
 		.row { 
 			/*I need some CSS codes.*/		
-
+			width: 100%;
+			box-sizing: border-box;
 		}
 
 		.large, .medium, .small {
 			/*I need some CSS codes.*/
+			box-sizing: border-box;
 		}
 		
 		.gap {
 			/*I need some CSS codes.*/
+			clear: both;
+			margin-bottom: 3em;
+		}
+
+		.main {
+			box-sizing: border-box;
 		}
 
 		@media screen and (min-width: 769px) {			
@@ -67,10 +75,13 @@ Description : Responsive Layouts.
 			}
 			.medium { 
 				width: 70%;
+				float:left;
 			}
 			.small { 
 				width: 30%;
+				float:left;
 			}
+			
 		}
 
         @media screen and (max-width: 768px) {
@@ -79,13 +90,19 @@ Description : Responsive Layouts.
 			}
 			.medium { 
 				width: 60%;
+				float:left;
 			}
 			.small { 
 				width: 40%;
+				float:left;
 			}
 			.menu {
 				float: none;
 				width: 100%;
+			}
+			.main {
+				width: 100%;
+				float: right;
 			}
         }
 
@@ -95,14 +112,21 @@ Description : Responsive Layouts.
 			}
 			.medium { 
 				width: 100%;
+				float: none;
 			}
 			.small { 
 				width: 100%;
+				float: none;
 			}
 			.menu {
 				float: none;
 				width: 100%;
 			}
+			.main {
+				width: 100%;
+				float: right;
+			}
+			
         }
 
         
